@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  background-color: pink;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0px;
+  width: 0px;
+}
+
+.wrapper {
+  width: 400px;
+  color: white;
+  background-color: white;
+  border: white solid 5px;
+}
+
+.button-row {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 0.5%;
+  justify-content: space-between;
+}
+
+.signs {
+  color: violet;
+  background-color: white;
+  width: 25px;
+  border: none;
+  font-size: 40px;
+  height: 100px;
+  flex-basis: 24.5%;
+}
+.medium {
+  flex-basis: 49.7%;
+}
+.large {
+  flex-basis: 74.8%;
+}
+
+.screen {
+  text-align: right;
+  font-size: 40px;
+  background-color: black;
+  padding: 20px 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.special {
+  color: black;
+  background-color: skyblue;
+}
+.special:hover {
+  background-color: white;
+  color: black;
+}
+.special:active {
+  background-color: white;
+  color: black;
+}
+
+.signs:hover {
+  background-color: skyblue;
+  color: black;
+}
+.signs:active {
+  background-color: skyblue;
+}
+footer {
+  color: rgb(8, 8, 8);
+  width: 400px;
+  display: flex;
+  flex-basis: 49.7%;
+}
